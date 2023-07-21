@@ -1096,10 +1096,6 @@
     }
   },
   "text": {
-    "12": {
-      "value": "12",
-      "type": "sizing"
-    },
     "weight": {
       "cardTitle": {
         "value": "regular",
@@ -1167,6 +1163,14 @@
         },
         "type": "typography"
       }
+    },
+    "font-size-12": {
+      "value": "12",
+      "type": "fontSizes"
+    },
+    "font-size-14": {
+      "value": "14",
+      "type": "fontSizes"
     }
   },
   "global": {
