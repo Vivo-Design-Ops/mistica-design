@@ -1263,11 +1263,11 @@
       "type": "fontWeights"
     },
     "font-weight-regular": {
-      "value": "regular",
+      "value": "500",
       "type": "fontWeights"
     },
     "font-weight-bold": {
-      "value": "bold",
+      "value": "700",
       "type": "fontWeights"
     },
     "line-height-16": {
@@ -1449,7 +1449,7 @@
     "Title": {
       "title1": {
         "value": {
-          "fontWeight": "{font-weight-regular}",
+          "fontWeight": "{font-weight-bold}",
           "lineHeight": "{line-height-40}",
           "fontSize": "{font-size-32}"
         },
@@ -1458,7 +1458,7 @@
       "title2": {
         "value": {
           "lineHeight": "{line-height-28}",
-          "fontWeight": "{font-weight-regular}",
+          "fontWeight": "{font-weight-bold}",
           "fontSize": "{font-size-28}"
         },
         "type": "typography"
