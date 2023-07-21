@@ -1096,6 +1096,10 @@
     }
   },
   "text": {
+    "12": {
+      "value": "12",
+      "type": "sizing"
+    },
     "weight": {
       "cardTitle": {
         "value": "regular",
@@ -1308,5 +1312,15 @@
         "type": "color"
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "light",
+      "dark",
+      "radius",
+      "text",
+      "global"
+    ]
   }
 }
