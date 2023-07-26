@@ -1,6 +1,6 @@
 {
   "additionalProperties": false,
-  "required": ["light", "dark", "radius", "text", "global"],
+  "required": ["light", "dark", "radius", "border", "text", "global"],
   "properties": {
     "global": {
       "additionalProperties": false,
@@ -22,6 +22,10 @@
     "radius": {
       "comment": "Aquí se obliga a usar los border radius definidos",
       "allOf": [{ "$ref": "#/global/radius" }]
+    },
+       "border": {
+      "comment": "Aquí se obliga a usar los border radius definidos",
+      "allOf": [{ "$ref": "#/global/border" }]
     },
     "text": {
       "comment": "Aquí se obliga a usar los text weight definidos",
